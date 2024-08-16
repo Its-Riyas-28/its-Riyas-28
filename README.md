@@ -1,3 +1,4 @@
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=its-riyas-28&label=Profile%20views&color=0e75b6&style=flat" alt="its-riyas-28" /> </p>
 <h1 align="center">Hi  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="5%">, I'm Mohammed Riyas</h1>
 <h3 align="center">A passionate web developer from India</h3>
 
