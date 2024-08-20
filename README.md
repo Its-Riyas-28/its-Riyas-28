@@ -5,7 +5,7 @@
 ## About me:
 - 🌱 I’m currently learning **web development and api**
 
-- 💬 Ask me about **who are you really?? || Tailwind CSS && javascript**
+- 💬 Ask me about **who are you really?? || Frontend Developer**
 
 - 📫 How to reach me **its.mohd.riyas@gmail.com**
 
