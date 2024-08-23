@@ -43,7 +43,7 @@
  <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/sivanesh-dsp/sivanesh-dsp/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com//Its-Riyas-28//Its-Riyas-28/output/github-contribution-grid-snake-dark.svg"
   />
     <source
     media="(prefers-color-scheme: light)"
