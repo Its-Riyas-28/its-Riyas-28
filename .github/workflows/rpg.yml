@@ -2,7 +2,7 @@ name: Generate Animation
 
 on:
   schedule:
-    - cron: "0 0 */1 * *"  # Runs daily at midnight
+    - cron: "0 0 * * *"  # Runs daily at midnight
   
   workflow_dispatch:
   
@@ -18,16 +18,22 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Generate the animation. Replace with the actual action or script you want to use.
-      - name: Generate Animation
-        run: |
-          # Replace this with your animation generation command
-          echo "Generating animation..."
-          mkdir -p dist
-          echo "<svg>...</svg>" > dist/animation.svg  # Placeholder content
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
       
-      # Push the generated animation to the output branch
-      - name: Push Animation to Output Branch
+      # Generate a simple SVG animation
+      - name: Generate SVG Animation
+        run: |
+          echo '<?xml version="1.0" encoding="UTF-8"?>' > dist/animation.svg
+          echo '<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">' >> dist/animation.svg
+          echo '  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red">' >> dist/animation.svg
+          echo '    <animate attributeName="r" from="10" to="40" dur="1s" repeatCount="indefinite" />' >> dist/animation.svg
+          echo '  </circle>' >> dist/animation.svg
+          echo '</svg>' >> dist/animation.svg
+
+      # Push the generated SVG animation to the output branch
+      - name: Push SVG Animation to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
