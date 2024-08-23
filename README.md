@@ -61,3 +61,35 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
+
+# GitHub Animation Generator
+
+This repository contains a GitHub Actions workflow that generates a simple SVG animation and deploys it to a GitHub Pages branch.
+
+## Workflow Overview
+
+The workflow, defined in `.github/workflows/rpg.yml`, performs the following actions:
+
+1. **Generate SVG Animation**: Creates an SVG animation file in the `dist` directory. This animation will show a red circle that changes size.
+2. **Deploy to GitHub Pages**: Pushes the generated SVG file to the `output` branch, which is configured for GitHub Pages.
+
+## Accessing the Animation
+
+The generated animation can be viewed at the following URL:
+- [SVG Animation](https://Its-Riyas-28.github.io/https://github.com/Its-Riyas-28/its-Riyas-28/animation.svg)
+
+Replace `<your-github-username>` and `<your-repository>` with your GitHub username and repository name, respectively.
+
+## How to Use
+
+1. **Automatic Generation**: The animation is generated daily at midnight and can also be triggered manually or on pushes to the `master` branch.
+2. **View the Animation**: Access the animation file at the provided GitHub Pages URL.
+
+## Contributing
+
+Feel free to fork the repository and propose changes via pull requests. For suggestions or issues, please open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
