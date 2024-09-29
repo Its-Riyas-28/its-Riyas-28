@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **its.mohd.riyas@gmail.com**
 
-- ⚡ Fun fact **I'm a part time youtuber .**
+- ⚡ Fun fact **I'm a part time youtuber **
 
 
 ## 🌐 Socials:
